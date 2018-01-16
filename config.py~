@@ -1,0 +1,32 @@
+# usr/bin/python
+# -*- coding:utf-8 -*-
+'''
+Setting up the configuration of the XX and getting these configurations
+Author:Tzboy
+From:RZYC
+Create time:2017-12-06
+'''
+baseConfig = {
+    # DB Configs
+    'db':{
+        'host':'121.40.106.103',#服务器地址
+        'user':'rzyc',#用户名
+        'pwd':'admin@rzyc.com##',#密码
+        #'host':'127.0.0.1',
+        #'user':'root',
+        #'pwd':'tzboy',
+        'name':'db_rt_crawler',#数据库名
+        'port':3306
+    }, 
+}
+
+def getConfig(keyname=''):
+    global baseConfig
+    if keyname=='':
+        return baseConfig
+    else:
+        try:
+            return baseConfig[keyname]
+        except:
+            return []
+    

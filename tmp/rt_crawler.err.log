@@ -1,0 +1,146 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.600 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 1.867 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.266 seconds.
+Prefix dict has been built succesfully.
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\xA7\x98\xF0\x9F...' for column 'content_text' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\xA7\x98' for column 'w_name' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x8F\xBB' for column 'w_name' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x91\x8D\xF0\x9F...' for column 'content' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x87\xAF\xF0\x9F...' for column 'content' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x93\xBD \xE4...' for column 'content_text' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x93\xBD' for column 'w_name' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x97\xA3' for column 'w_name' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x91\x87 \xE7...' for column 'content_text' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect string value: '\xF0\x9F\x91\x87' for column 'w_name' at row 1
+  result = method(*args, **kwargs)  # try to execute
+/usr/local/lib/python2.7/dist-packages/DBUtils/SteadyDB.py:580: Warning: Incorrect integer value: '' for column 'create_time' at row 1
+  result = method(*args, **kwargs)  # try to execute
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.989 seconds.
+Prefix dict has been built succesfully.
+Loading model cost 1.892 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.265 seconds.
+Prefix dict has been built succesfully.
+Process PoolWorker-3:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+Process PoolWorker-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+Process PoolWorker-4:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.288 seconds.
+Prefix dict has been built succesfully.
+Process PoolWorker-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+Process PoolWorker-1:
+Process PoolWorker-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+IOError: [Errno 32] Broken pipe
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.360 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.318 seconds.
+Prefix dict has been built succesfully.
+Process PoolWorker-2:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
+Process PoolWorker-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 122, in worker
+    put((job, i, (False, wrapped)))
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 392, in put
+    return send(obj)
+IOError: [Errno 32] Broken pipe
